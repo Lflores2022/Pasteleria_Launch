@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MegaCake-Pedidos</title>
+    <link rel="stylesheet" href="src/css/style.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="logo"></div>
+      <div class="menu">
+        <ul>
+          <li><a href="index.html">INICIO</a></li>
+          <li><a href="pasteles.html">PASTELES</a></li>
+          <li><a href="adornos.html">ADORNOS</a></li>
+          <li><a href="pedidos.html">PEDIDOS</a></li>
+          <li><a href="ubicacion.html">UBICACION</a></li>
+        </ul>
+      </div>
+    </nav>
+    <h1>Realiza tu pedido Monster Cake</h1>
+    <div class="container">
+      <form action="" class="formulario">
+        <input type="text" placeholder="Ingresa tu nombre completo" />
+        <input type="text" placeholder="Ingresa tu telefono" />
+        <input type="email" placeholder="Ingresa tu correo" />
+        <textarea
+          name=""
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="como quieres tu pastel?"
+        ></textarea>
+        <select name="sabor" id="">
+          <option value="null">Selecciona un sabor</option>
+          <option value="1">Mordiscos de Fresa</option>
+          <option value="2">Tres leches</option>
+          <option value="3">American</option>
+          <option value="4">Chocolate</option>
+          <option value="5">Rompope</option>
+        </select>
+        <select name="adorno" id="">
+          <option value="null">Selecciona un adorno</option>
+          <option value="1">Dino Vela</option>
+          <option value="2">Dino Bebé</option>
+          <option value="3">Globo de Corazón</option>
+          <option value="4">Unicornio</option>
+          <option value="5">Bolsita</option>
+        </select>
+        <button type="submit">Pedir</button>
+      </form>
+    </div>
+    <div class="tabla">
+      <h2>Mira tus pedidos</h2>
+      <table>
+        <thead>
+          <th>Nombre</th>
+          <th>Telefono</th>
+          <th>Correo</th>
+          <th>Descripcion</th>
+          <th>Sabor</th>
+          <th>Adorno</th>
+        </thead>
+      </table>
+    </div>
+  </body>
+</html>
